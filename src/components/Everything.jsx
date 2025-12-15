@@ -44,7 +44,7 @@ function Everything() {
         {features.map((item)=>(
           <button key={item.id} onClick={()=>setactive(item)} className='hover:bg-white/20 py-5 px-15 rounded-3xl'>
             <h3 className='text-lg font-semibold text-left mb-1'>{item.title}</h3>
-            <p>{item.description}</p>
+            <p className='text-left'>{item.description}</p>
 
           </button>
         ))}
